@@ -1,0 +1,45 @@
+{
+    "Linear Regression": {
+        "MSE": 0.6844594202536468,
+        "MAE": 0.6605363737340457
+    },
+    "Lasso": {
+        "MSE": 0.713160056626524,
+        "MAE": 0.6737413386771459
+    },
+    "Random Forest": {
+        "MSE": 0.6238502054740871,
+        "MAE": 0.6260176803394736
+    },
+    "Gradient Boosting": {
+        "MSE": 0.598388144061787,
+        "MAE": 0.6096998650003428
+    },
+    "Ensemble": {
+        "MSE": 0.6706250360865905,
+        "MAE": 0.6470818289648076
+    },
+    "Linear Regression (Selected Features)": {
+        "MSE": 0.6926917028807396,
+        "MAE": 0.6645289921482066
+    },
+    "Selected Features": [
+        "home_rolling_ppda_4",
+        "home_rolling_deep_completions_5",
+        "away_rolling_ppda_7",
+        "home_rolling_deep_completions_8",
+        "relative_ppda",
+        "relative_deep_completions"
+    ],
+    "Cross Validation": {
+        "MSE Scores": [
+            0.7006077786917079,
+            0.6593590348486216,
+            0.7204770185444513,
+            0.7085190280031458,
+            0.7107991900934446
+        ],
+        "Average MSE": 0.6999524100362742,
+        "MSE Standard Deviation": 0.04252576398009048
+    }
+}
