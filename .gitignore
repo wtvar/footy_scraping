@@ -1,5 +1,5 @@
 .env
 *.csv
 *.png
-menv/
+myenv/
 model_outputs/
